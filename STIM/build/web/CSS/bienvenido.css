@@ -1,0 +1,41 @@
+.barra-navegacion {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+	
+.barra-navegacion li{
+	float:left
+}
+
+.barra-navegacion li a{
+	display:block;padding:8px 16px
+}
+
+.barra-navegacion li a:hover{
+	color:#000;background-color:#ccc
+}
+
+body {
+	background-color: #f0f0f2;
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.alinear-derecha {
+	float: right!important;
+}
+
+
+a:link, a:visited {
+	color: #38488f;
+	text-decoration: none;
+}
+
+.textbox {
+	width: 200px;
+	padding: 20px;
+}
